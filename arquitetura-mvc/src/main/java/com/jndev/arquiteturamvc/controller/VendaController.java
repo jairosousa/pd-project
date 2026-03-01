@@ -2,7 +2,7 @@ package com.jndev.arquiteturamvc.controller;
 
 
 import com.jndev.arquiteturamvc.model.Pedido;
-import com.jndev.arquiteturamvc.servuce.VendaService;
+import com.jndev.arquiteturamvc.service.VendaService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

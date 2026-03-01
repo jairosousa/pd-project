@@ -1,4 +1,4 @@
-package com.jndev.arquiteturamvc.servuce;
+package com.jndev.arquiteturamvc.service;
 
 
 import com.jndev.arquiteturamvc.model.Pedido;
