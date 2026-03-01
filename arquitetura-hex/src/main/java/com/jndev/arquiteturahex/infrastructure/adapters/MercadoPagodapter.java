@@ -1,7 +1,7 @@
-package com.jndev.arquiterurahex.infrastructure.adaptres;
+package com.jndev.arquiteturahex.infrastructure.adapters;
 
 
-import com.jndev.arquiterurahex.core.port.PaymentStrategy;
+import com.jndev.arquiteturahex.core.port.PaymentStrategy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

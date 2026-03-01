@@ -1,8 +1,8 @@
-package com.jndev.arquiterurahex.infrastructure.config;
+package com.jndev.arquiteturahex.infrastructure.config;
 
 
-import com.jndev.arquiterurahex.core.port.PaymentStrategy;
-import com.jndev.arquiterurahex.core.services.ProcessPaymentService;
+import com.jndev.arquiteturahex.core.port.PaymentStrategy;
+import com.jndev.arquiteturahex.core.services.ProcessPaymentService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

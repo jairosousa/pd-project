@@ -1,7 +1,7 @@
-package com.jndev.arquiterurahex.application.web;
+package com.jndev.arquiteturahex.application.web;
 
 
-import com.jndev.arquiterurahex.core.services.ProcessPaymentService;
+import com.jndev.arquiteturahex.core.services.ProcessPaymentService;
 import org.springframework.web.bind.annotation.*;
 
 /**

@@ -1,6 +1,6 @@
-package com.jndev.arquiterurahex.core.services;
+package com.jndev.arquiteturahex.core.services;
 
-import com.jndev.arquiterurahex.core.port.PaymentStrategy;
+import com.jndev.arquiteturahex.core.port.PaymentStrategy;
 
 import java.util.List;
 

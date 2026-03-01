@@ -1,4 +1,4 @@
-package com.jndev.arquiterurahex.core.port;
+package com.jndev.arquiteturahex.core.port;
 
 
 /**
