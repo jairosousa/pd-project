@@ -254,3 +254,12 @@ public class PaymentController {
 1. **Independência de Framework:** Se você decidir trocar o Spring pelo Quarkus ou Micronaut, toda a sua lógica de escolha de estratégia (ProcessPaymentService) e as interfaces permanecem intactas.
 
 1. **Flexibilidade:** Se o método de pagamento "PIX" precisar salvar algo no banco e o "Cartão" precisar chamar um serviço externo, cada Adapter cuidará da sua própria dependência de infraestrutura sem sujar o Core.
+
+## Comparativo Rápido: MVC vs Hexagonal
+
+| Característica      | MVC (Spring Standard)         | Arquitetura Hexagonal                |
+|---------------------|------------------------------|--------------------------------------|
+| Complexidade        | Baixa/Média                  | Alta                                 |
+| Velocidade de Dev   | Mais rápida                  | Mais lenta (mais classes/interfaces) |
+| Acoplamento         | Alto (Depende do Spring em tudo) | Baixo (O Core é Java Puro)       |
+| Indicação           | CRUDs, APIs simples, MVPs     | Sistemas complexos, Longo prazo      |
